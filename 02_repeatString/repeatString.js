@@ -6,7 +6,7 @@ const repeatString = function(userString, count) {
     }
 
     for (i = 0; i < count; i++){
-        output = output + userString
+        output += userString
     }
     return output;
 };
